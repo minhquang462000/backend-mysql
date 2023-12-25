@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
 import {  Routes , Route } from 'react-router-dom'
-import UserComponent from './components/users/user';
+import UserList from './components/users/ListUser';
 
 function App() {
   return (
     <>
     <Routes>
-      <Route path="/user" element = {<UserComponent/>}/>
+      <Route path="/user" element = {<UserList/>}/>
     </Routes>
     </>
   )
